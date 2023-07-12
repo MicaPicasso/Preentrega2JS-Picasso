@@ -1,0 +1,41 @@
+.cardImage{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    padding-bottom: 4px;
+}
+.cardContent{
+    font-size: 12px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-transform: uppercase;
+}
+.cardPrice{
+    text-align: end;
+    font-size: 15px;
+}
+.cardProduct{
+    background-color: rgba(181, 181, 181, 0.212);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 30px;
+
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardAdd button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 7px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.cardAdd button:hover{
+    font-weight: bold;
+    border: 2px solid black;
+}

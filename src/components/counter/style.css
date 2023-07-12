@@ -1,0 +1,12 @@
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding-left: 20px;
+    color: white;
+  
+  }
+  .counterButton{
+    width: 20px;
+  }
